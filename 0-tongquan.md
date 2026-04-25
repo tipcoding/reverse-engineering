@@ -259,4 +259,3 @@ PUSH EAX        ; Đẩy giá trị EAX lên stack
 4. Tìm bài tập tương tự để practice
 5. Ghi chú và tóm tắt kiến thức
 
-Bạn muốn tôi giải thích chi tiết hơn về chapter nào không?

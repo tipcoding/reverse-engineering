@@ -1,8 +1,8 @@
 
 ## Lời nói đầu
 
-Thật đáng kinh ngạc, và cũng khá đáng lo, khi nhận ra rằng chúng ta đang chạy rất nhiều phần mềm mà hoàn toàn không biết chắc nó thực sự làm gì. 
-Chúng ta mua phần mềm đóng gói sẵn trên kệ, được bọc nhựa kín. 
+Thật đáng kinh ngạc, và cũng khá đáng lo, khi nhận ra rằng **chúng ta đang chạy rất nhiều phần mềm mà hoàn toàn không biết chắc nó thực sự làm gì. **
+Chúng ta mua phần mềm trong các hộp đóng gói sẵn trên kệ, được bọc nhựa kín. 
 Chúng ta chạy các chương trình cài đặt, chúng cài vô số tệp, thay đổi thiết lập hệ thống, xóa hoặc vô hiệu hóa các phiên bản cũ và tiện ích lỗi thời, đồng thời chỉnh sửa những phần quan trọng trong registry. 
 
 Mỗi lần truy cập một trang web, có thể chúng ta đang gọi hoặc tương tác với hàng chục chương trình và đoạn mã, tất cả nhằm tạo ra giao diện, cảm giác và hành vi sử dụng như mong đợi. 
@@ -12,15 +12,15 @@ Chúng ta gần như “nhắm mắt tin” rằng các thay đổi mới nhất
 Nói ngắn gọn, chúng ta đang phụ thuộc vào rất nhiều phần mềm mà chính mình không hiểu rõ. 
 
 Tôi không chỉ nói tới máy tính để bàn hay laptop cá nhân. 
-Khái niệm “tính toán mọi nơi” – hay “phần mềm ở mọi chỗ” – đang nhanh chóng đưa phần mềm điều khiển và kết nối vào vô số thiết bị xung quanh ta. 
+Khái niệm ubiquitous computing (tính toán mọi nơi) – hay software everywhere (phần mềm ở mọi chỗ)– đang nhanh chóng đưa phần mềm điều khiển và kết nối vào vô số thiết bị xung quanh ta. 
 Một chiếc ô tô trung bình ngày nay có số dòng mã trong hệ thống điều khiển động cơ còn nhiều hơn số dòng mã từng cần để đưa phi hành gia Apollo lên Mặt Trăng. 
 
-Phần mềm hiện đại đã trở nên phức tạp và liên kết chằng chịt đến mức ngay cả nhà phát triển cũng thường không nắm hết tất cả tính năng và mọi hệ quả trong ứng dụng của họ. 
+**Phần mềm hiện đại đã trở nên phức tạp và liên kết chằng chịt** đến mức ngay cả nhà phát triển cũng thường không nắm hết tất cả tính năng và mọi hệ quả trong ứng dụng của họ. 
 Việc kiểm thử mọi nhánh điều khiển của chương trình và mọi tổ hợp tùy chọn người dùng thường quá tốn kém và mất thời gian. 
 Với nhiều tầng kiến trúc khác nhau và vô số nền tảng kết nối mạng mà phần mềm phải chạy trên đó hoặc tương tác, việc kiểm tra mọi kết hợp khả dĩ gần như bất khả thi. 
-Giống như việc rất khó dự đoán trước mọi tương tác giữa các loại thuốc, nhiều hệ thống phần mềm được tung ra sử dụng trong khi vẫn tồn tại những vấn đề chưa được biết tới và khó lường. 
+Giống như việc rất khó dự đoán trước mọi tương tác giữa các loại thuốc trị bệnh, nhiều hệ thống phần mềm được tung ra sử dụng trong khi vẫn tồn tại những vấn đề chưa được biết tới và khó lường. 
 
-Reverse engineering (dịch ngược) là tập hợp các kỹ thuật và công cụ then chốt để hiểu phần mềm thực sự là gì và hoạt động ra sao. 
+**Reverse engineering (dịch ngược)** là tập hợp các kỹ thuật và công cụ then chốt để hiểu phần mềm thực sự là gì và hoạt động ra sao. 
 Về chính danh, nó là “quá trình phân tích một hệ thống đối tượng nhằm xác định các thành phần của hệ thống, mối quan hệ giữa chúng, và tạo ra các biểu diễn của hệ thống đó dưới một hình thức khác hoặc ở mức trừu tượng cao hơn” (IEEE 1990). 
 Nhờ đó, chúng ta có thể hình dung được cấu trúc phần mềm, cách nó vận hành, và những tính năng điều khiển hành vi của nó. 
 Các kỹ thuật phân tích, cùng việc áp dụng những công cụ tự động để kiểm tra phần mềm, đem lại cho chúng ta một cách tiếp cận hợp lý để nắm bắt độ phức tạp của phần mềm và khám phá bản chất thật bên trong. 
@@ -34,7 +34,7 @@ Dù chủ đề này từng xuất hiện ở một vài phiên trong các hội
 Nó được cộng đồng kỹ sư ghi nhận thông qua một bài báo phân loại về reverse engineering và khái niệm “phục hồi thiết kế” đăng trên tạp chí IEEE Software. 
 Kể từ đó, đã có một khối lượng nghiên cứu rộng lớn và ngày càng tăng về các kỹ thuật reversing, trực quan hóa phần mềm, hiểu chương trình, reverse dữ liệu, phân tích phần mềm và các công cụ, phương pháp liên quan. 
 Những diễn đàn nghiên cứu như hội nghị quốc tế thường niên Working Conference on Reverse Engineering (WCRE) đã và đang khám phá, nhấn mạnh, mở rộng giá trị của các kỹ thuật hiện có. 
-Hiện nay, sự quan tâm đến reverse ở mức nhị phân – trọng tâm chính của cuốn sách này – đang tăng lên, nhằm hỗ trợ chuyển đổi nền tảng, khả năng tương tác, phát hiện malware và chẩn đoán lỗi. 
+Hiện nay, **sự quan tâm đến reverse ở mức nhị phân – trọng tâm chính của cuốn sách này** – đang tăng lên, nhằm hỗ trợ chuyển đổi nền tảng, khả năng tương tác, phát hiện malware và chẩn đoán lỗi. 
 
 Là một tư vấn viên về quản lý và công nghệ thông tin, tôi thường được hỏi: “Làm sao anh có thể ủng hộ reverse engineering được?”. 
 Tiếp theo là câu hỏi: “Anh từng phát triển và bán phần mềm. Anh không muốn người khác tôn trọng và bảo vệ bản quyền, tài sản trí tuệ của anh sao?”. 
@@ -44,15 +44,15 @@ Tuy vậy, công nghệ reverse engineering lại mang nhiều giá trị cho c�
 Một chiếc ống nghe có thể bị kẻ trộm dùng để nghe cơ chế khóa của két sắt khi các bánh bi rơi vào vị trí. 
 Nhưng cũng chính chiếc ống nghe đó được bác sĩ gia đình dùng để phát hiện những vấn đề về hô hấp hoặc tim mạch. 
 Hoặc nó có thể được kỹ thuật viên máy tính dùng để lắng nghe kỹ tiếng hoạt động của một ổ đĩa cứng kín nhằm chẩn đoán sự cố mà không cần mở ổ đĩa, tránh cho nó tiếp xúc với bụi và phấn hoa có thể gây hỏng hóc. 
-Bản thân công cụ không tự nó tốt hay xấu; vấn đề nằm ở cách nó được sử dụng. 
+**Bản thân công cụ không tự nó tốt hay xấu; vấn đề nằm ở cách nó được sử dụng. **
 
 Vào đầu những năm 1980, IBM quyết định không còn cung cấp mã nguồn hệ điều hành máy tính lớn cho khách hàng. 
 Trước đó, khách hàng mainframe luôn dựa vào mã nguồn để tham khảo khi giải quyết sự cố, cũng như để tùy chỉnh, chỉnh sửa, mở rộng sản phẩm hệ điều hành của IBM. 
-Tôi vẫn giữ một chiếc huy hiệu của nhóm người dùng IBM Share với dòng chữ: “Nếu SOURCE bị coi là bất hợp pháp, thì chỉ có ‘tội phạm’ mới có SOURCE” – chơi chữ dựa trên khẩu hiệu nổi tiếng của những người phản đối luật kiểm soát súng. 
+Tôi vẫn giữ một chiếc huy hiệu của nhóm người dùng IBM Share với dòng chữ: “*Nếu SOURCE bị coi là bất hợp pháp, thì chỉ có ‘tội phạm’ mới có SOURCE”* – chơi chữ dựa trên khẩu hiệu nổi tiếng của những người phản đối luật kiểm soát súng. 
 Áp dụng vào phần mềm ngày nay, điều này cho thấy các hacker và tác giả mã độc biết rất nhiều kỹ thuật để giải mã phần mềm của người khác. 
 Vì vậy, thật hữu ích nếu “người tốt” cũng biết và sử dụng các kỹ thuật này. 
 
-Reverse engineering đặc biệt hữu ích trong phân tích phần mềm hiện đại, với nhiều mục đích: 
+**Reverse engineering đặc biệt hữu ích trong phân tích phần mềm hiện đại, với nhiều mục đích:** 
 
 – Tìm kiếm mã độc. 
 Nhiều kỹ thuật phát hiện virus và malware dùng reverse engineering để hiểu cấu trúc và cách hoạt động của mã độc hại. 
@@ -111,6 +111,3 @@ Reverse engineering có thể dẫn tới những khám phá mới về phần m
    - Hacker và tác giả malware đã biết và dùng các kỹ thuật này từ lâu; nếu bạn đứng “phe phòng thủ”, bạn cũng cần nắm reversing để hiểu mình đang đối mặt với cái gì. 
    - Cuốn sách (và phần Foreword) muốn hợp thức hóa reverse engineering như một kỹ thuật chuyên môn quan trọng, chứ không phải hoạt động chỉ dành cho “người xấu”. 
 
-Nếu bạn muốn, mình có thể:  
-- Tóm lược lại Foreword theo dạng mindmap hoặc bullet siêu ngắn để bạn ghi nhớ.  
-- Liên hệ trực tiếp Foreword với công việc reversing malware / crackme / unpacker mà bạn đang làm để thấy chỗ áp dụng thực tế.
